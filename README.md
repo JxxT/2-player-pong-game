@@ -1,4 +1,4 @@
-# 2-player-pong-game
+# 2-players-pong-game
 A simple game made by me.
 
 Controls: PLAYER-1=> w=up, s=down and PLAYER-2=> up arrow key=up, down arrow key=down
