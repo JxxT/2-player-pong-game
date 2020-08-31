@@ -91,12 +91,12 @@ while True:
     if ball.ycor() > 290:
         ball.sety(290)
         ball.dy *= -1
-        winsound.PlaySound("C:/Users/jeet2/Desktop/bounce.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
     
     elif ball.ycor() < -290:
         ball.sety(-290)
         ball.dy *= -1
-        winsound.PlaySound("C:/Users/jeet2/Desktop/bounce.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
 
     # Left and right
     if ball.xcor() > 350:
@@ -116,8 +116,8 @@ while True:
     # Paddle and ball collisions
     if ball.xcor() < -340 and ball.ycor() < paddle_a.ycor() + 50 and ball.ycor() > paddle_a.ycor() - 50:
         ball.dx *= -1 
-        winsound.PlaySound("C:/Users/jeet2/Desktop/bounce.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
     
     elif ball.xcor() > 340 and ball.ycor() < paddle_b.ycor() + 50 and ball.ycor() > paddle_b.ycor() - 50:
         ball.dx *= -1
-        winsound.PlaySound("C:/Users/jeet2/Desktop/bounce.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
